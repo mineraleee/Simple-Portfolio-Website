@@ -1,0 +1,132 @@
+.skills {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: center;
+    gap: 20px; 
+    padding-top: 150px; 
+}
+
+.content-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    gap: 10px; 
+}
+
+.h1-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-skills h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    margin-bottom: 0px;
+}
+.content-skills h1::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: #ff9494 ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+.skills::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: #ff9494 ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.opsi-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.opsi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    position: relative; 
+}
+.opsi h3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    width: 90px;
+    height: 40px;
+    background: #fff5e4;
+    border: 2px solid #ff9494;
+    border-radius: 10%;
+    font-size: 20px;
+    color:#ff9494;
+}
+.opsi h3::after{
+    content:'';
+    position: absolute;
+    top:0;
+    right: 50;
+    left:50;
+    bottom:0;
+    width: 500%;
+    height:100%;
+    background: #ff9494 ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+
+#box {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ff9494;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: inline-flex;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: 0.5s;
+    margin-top: 20px; 
+}
+
+#box:hover {
+    color: #f8f8f8;
+    background: #ff9494;
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}

@@ -1,0 +1,79 @@
+.contact{
+    position: absolute;
+    top: 48%;
+    width: 200px;
+    display: flex;
+    margin-left: 40%;
+    justify-content: space-between;
+}
+
+#title{
+    position: absolute;
+    top: 35%;
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    margin-left: 35%;
+    justify-content: space-between;
+}
+#title2{
+    position: absolute;
+    top: 30%;
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    margin-left: 35%;
+    justify-content: space-between;
+}
+#important{
+    color: #ff9494;
+}
+.contact a{
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff9494;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#ff9494;
+    text-decoration: none;
+}
+.contact::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: #fff5e4 ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+#title::before{
+    content:'';
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: #fff5e4 ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.3s;
+}
+.contact :hover{
+    color: #f8f8f8;
+    background: #ff9494;
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
