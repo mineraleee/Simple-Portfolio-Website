@@ -13,6 +13,9 @@ Website portofolio ini adalah sebuah website sederhana yang berisi biodata dan p
 - Unduh tags lalu _unzip_ folder tersebut
 - Buka Command Prompt lalu ubah direktori menjadi tempat folder yang telah di-_unzip_
 - Jalankan website dengan ketik "npm run dev" pada direktori yang telah disesuaikan
+  ```sh
+  npm run dev
+  ```
 - Salin link yang diberikan pada Command Prompt: http://localhost:3000/
 - Tambahkan "/dashboard" pada link tersebut agar website pada menu dashboard dapat tertampilkan (http://localhost:3000/dashboard)
 
