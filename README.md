@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website Portofolio
 
-## Getting Started
 
-First, run the development server:
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Website portofolio ini adalah sebuah website sederhana yang berisi biodata dan pengalaman yang pembuatannya dengan menggunakan next.js. Secara keseluruhan dibuat dengan file:
+
+- .tsx
+- .css
+
+## How to Use
+
+- Unduh tags lalu _unzip_ folder tersebut
+- Buka Command Prompt lalu ubah direktori menjadi tempat folder yang telah di-_unzip_
+- Jalankan website dengan ketik "npm run dev" pada direktori yang telah disesuaikan
+- Salin link yang diberikan pada Command Prompt: http://localhost:3000/
+- Tambahkan "/dashboard" pada link tersebut agar website pada menu dashboard dapat tertampilkan (http://localhost:3000/dashboard)
+
+## Tech
+
+Website ini dibangun dengan menggunakan:
+
+- [VS Code] - Aplikasi VS Code adalah editor kode gratis yang mendukung penggunaan banyak bahasa pemrograman
+- [Google Chrome] - Aplikasi Google Chrome adalah browser web cepat yang tersedia tanpa biasa yang merupakan tools penting dalam membuat sebuah halaman website
+- [HTML] - Hypertext Markup Language, yaitu bahasa markup standar untuk membuat dan menyusun halaman pada website.
+- [CSS] - Cascading Markup Language, yaitu bahasa yang berguna untuk mengatur style dari halaman website
+- [node.js] - Node.js membantu proses backend
+- [next.js] - Framework React yang memudahkan pembuatan website
+
+Dan tentu saja GitHub menjadi penghubung dalam penyampaian soure website portofolio berikut.
+
+## Installation
+
+Untuk menjalankan website, dibutuhkan Node.js dan next.js
+
+Install Node.js:
+https://nodejs.org/en/download/package-manager
+
+Install next.js dengan menjalankan pada terminal:
+```sh
+npx create-next-app@latest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Bonus
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bonus pada tugas yang diberikan saya hanya mengerjakan bagian kreativitas. Saya mencoba untuk membuat responsive design, yaitu penggunaan tailwind css, namun karena pada awalnya saya membuat website dengan html dan css, sehingga membutuhkan waktu lagi untuk mengubah css tersebut menjadi penggunaan tailwind css saja yang diintegrasikan pada file html/tsx.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Problem
 
-## Learn More
+Kesulitan yang dihadapi pada pembuatan website sederhana ini ialah saat melakukan design tampilannya. Terutama karena saya baru belajar komponen-komponen pada CSS. Saya juga menyayangkan atas ketidaktahuan saya untuk menggunakan tailwind css di awal. Membuat saya terlanjut membuat file css terpisah dan saat terakhir kesulitan mengubahnya. Untuk isi dari website portfolio ini juga saya kesulitan dalam merangkai deskripsi yang akan saya isi.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credit
+Heleni Gratia M. (19623150)
