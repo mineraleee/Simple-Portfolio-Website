@@ -16,7 +16,7 @@ Website portofolio ini adalah sebuah website sederhana yang berisi biodata dan p
   ```sh
   npm run dev
   ```
-- Salin link yang diberikan pada Command Prompt: http://localhost:3000/
+- Salin link yang diberikan pada Command Prompt di browser: http://localhost:3000/
 - Tambahkan "/dashboard" pada link tersebut agar website pada menu dashboard dapat tertampilkan (http://localhost:3000/dashboard)
 
 ## Tech
